@@ -4,13 +4,11 @@ var fs = require('fs');
 switch(process.argv[2]){
   case 'my-tweets':
     var getTweets = require('./twitter.js');
-  break;
-  
+    break;
   case 'spotify-this-song':
     var getSong = require('./spotify.js');
-  break;
-
+    break;
   case 'movie-this':
     var getMovies = require('./movie.js');
-  break;  
+    break;  
 }
